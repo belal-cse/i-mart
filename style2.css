@@ -1,81 +1,57 @@
-/* 📱 Mobile ke liye (width 600px tak) */
-@media (max-width: 600px) {
-  body {
-    background-color: aqua;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
+@media(max-width:600px){
+    body{
+        background-color: aquamarine;
+    }
+    .card{
+        background-color: white;
+        height: 400px;
+        width: 300px;
+        position: relative;
+        left: 15px;
+        top: 150px;
+        border-radius: 25px;
+        border-color: red;
 
-  h1 {
-    color: pink;
-    position: fixed;
-    top: 20px;
-    left: 0;
-    display: block;
-    font-size: 28px;
-    margin: 0 auto;
-  }
-
-  .image1{
-    position: fixed;
-    top: 100px;
-    left: 30px;
-    width: 300px;
-    
-  }
-  .card{
-    background-color: pink;
-    border-radius: 25px;
-    
-
- 
-    width: 300px;
-    height: 300px;
-    display: inline-block;
-    position: fixed;
-    top:300px ;
-    left: 30px;
-  }
-
- 
-}
-
-/* 💻 Desktop ke liye (width 601px se upar) */
-@media (min-width: 601px) {
-  body {
-    background-color:aqua;
-  }
-
-  h1 {
-    color: white;
-    position: fixed;
-    left: 600px;
-    top: 5px;
-    font-size: 40px;
-  }
-  .image1{
-    position: fixed;
-    width: 300px;
-    left: 600px;
-    top: 100px;
-  }
-
-   .card{
-    background-color: pink;
-    
-    
-
- 
-    width: 300px;
-    height: 300px;
-    display: inline-block;
-    position: fixed;
-    top:300px ;
-    left: 600px;
-  }
-
-  
-  
+    }
+    .login{
+        position: relative;
+        left: 100px;
+        top: 50px;
+    }
+    .l1{
+        position: relative;
+        top: 50px;
+        left: 50px;
+    }
+    .input1{
+        position: relative;
+        left: 50px;
+        top: 60px;
+        width: 200px;
+        height: 30px;
+        border-radius: 25px;
+    }
+    .l2{
+        position: relative;
+        left: 50px;
+        top: 80px;
+    }
+    .input2{
+        position: relative;
+        left: 50px;
+        top: 90px;
+        width: 200px;
+        height: 30px;
+        border-radius: 25px;
+    }
+    .btn{
+        
+        background-color: blue;
+        position: relative;
+        top: 100px;
+        left: 50px;
+        width: 200px;
+        height: 30px;
+        border-radius: 25px;
+    }
 }
